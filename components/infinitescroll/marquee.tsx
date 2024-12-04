@@ -1,4 +1,3 @@
-import { cn } from "@/lib/utils";
 import Marquee from "@/components/ui/marquee";
 import Image from "next/image";
 
@@ -200,7 +199,7 @@ export function SlidingComponent({}) {
               />
             </div>
             <h3 className="text-[#898989]">
-              Maergo's Express Delivery: How Supabase Helped Achieve
+              Maergo&apos;s Express Delivery: How Supabase Helped Achieve
               Scalability, Speed,and Cost Saving.
             </h3>
           </div>
@@ -289,7 +288,7 @@ export function SlidingComponent({}) {
               />
             </div>
             <h3 className="text-[#898989]">
-              Maergo's Express Delivery: How Supabase Helped Achieve
+              Maergo&apos;s Express Delivery: How Supabase Helped Achieve
               Scalability, Speed,and Cost Saving.
             </h3>
           </div>
@@ -369,7 +368,7 @@ export function MarqueeReviewCard() {
                     <span className="font-bold">@{review.username}</span>
                   </div>
 
-                  <p className="text-[#898989] py-1 ">"{review.review}"</p>
+                  <p className="text-[#898989] py-1 ">&quot;{review.review}&quot;</p>
                 </div>
               );
             })}

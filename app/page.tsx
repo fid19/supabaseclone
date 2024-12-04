@@ -23,7 +23,6 @@ import {
   FaArrowRight,
   FaCheck,
   FaGithub,
-  FaReact,
   FaYoutube,
 } from "react-icons/fa";
 import { IoChatbox, IoCheckmark } from "react-icons/io5";
